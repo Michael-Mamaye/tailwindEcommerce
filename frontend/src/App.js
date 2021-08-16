@@ -1,12 +1,10 @@
-
+import Home from './components/pages/Home'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <div>
-          this is one tailwind css example
-        </div>
+        <Home/>
     </div>
   );
 }
